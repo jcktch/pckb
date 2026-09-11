@@ -10,44 +10,37 @@ theme:
   name: material
   language: fr
   features:
-    - navigation.tabs
+    - navigation.sections
   icon:
     logo: fontawesome/solid/terminal
   palette:
-    # Palette toggle for light mode
-    - scheme: default
-      primary: black
-      toggle:
-        icon: material/toggle-switch
-        name: Basculer en mode sombre
-
-    # Palette toggle for dark mode
     - scheme: slate
-      primary: black
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Basculer en mode clair
+      primary: yellow
+      accent: yellow
 
 
 extra_css:
   - stylesheets/extra.css
 
 nav:
-  - ACCUEIL: index.md
+  - Accueil: index.md
 
-  - LABORATOIRES:
+  - LABS D'APPRENTISSAGE:
       - Introduction: laboratoires/index.md
 
-  - RÉSEAU:
+  - SÉCURITÉ RÉSEAU:
       - Introduction: reseau/index.md
 
-  - SYSTÈMES:
+  - SÉCURITÉ WINDOWS:
       - Introduction: systemes/index.md
 
-  - APPLICATIF:
+  - SÉCURITÉ LINUX:
+      - Introduction: systemes/index.md
+
+  - SÉCURITÉ APPLICATIVE:
       - Introduction: applicatif/index.md
 
-  - RÉTRO-INGENIERIE:
+  - RÉTRO-INGÉNIERIE:
       - Introduction: retro-ingenierie/index.md
 
   - CRYPTOGRAPHIE:
