@@ -26,22 +26,27 @@ nav:
   - Accueil: index.md
 
   - LABS D'APPRENTISSAGE:
-      - Introduction: laboratoires/index.md
+      - Hack The Box:
+        - Test: 01_labs_app/htb/machine.md
 
   - SÉCURITÉ RÉSEAU:
-      - Introduction: reseau/index.md
-
-  - SÉCURITÉ WINDOWS:
-      - Introduction: systemes/index.md
-
-  - SÉCURITÉ LINUX:
-      - Introduction: systemes/index.md
+      - TCP/IP:
+        - FTP: 02_sec_res/ftp/ftp.md
 
   - SÉCURITÉ APPLICATIVE:
-      - Introduction: applicatif/index.md
+      - Introduction: 03_sec_app/index.md
+
+  - SÉCURITÉ LINUX:
+      - Introduction: 04_sec_lin/index.md
+
+  - SÉCURITÉ WINDOWS:
+      - Introduction: 05_sec_win/index.md
 
   - RÉTRO-INGÉNIERIE:
-      - Introduction: retro-ingenierie/index.md
+      - Introduction: 06_ret_ing/index.md
 
   - CRYPTOGRAPHIE:
-      - Introduction: cryptographie/index.md
+      - Introduction: 07_crypto/index.md
+
+
+      
