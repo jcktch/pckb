@@ -1,0 +1,54 @@
+site_name: jcktch/pckb
+site_url: https://mydomain.org/mysite
+repo_url: https://github.com/jcktch/pckb.git
+repo_name: jcktch/pckb
+
+
+theme:
+  font:
+    text: Ubuntu
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+  icon:
+    logo: fontawesome/solid/terminal
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/toggle-switch
+        name: Basculer en mode sombre
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Basculer en mode clair
+
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - ACCUEIL: index.md
+
+  - LABORATOIRES:
+      - Introduction: laboratoires/index.md
+
+  - RÉSEAU:
+      - Introduction: reseau/index.md
+
+  - SYSTÈMES:
+      - Introduction: systemes/index.md
+
+  - APPLICATIF:
+      - Introduction: applicatif/index.md
+
+  - RÉTRO-INGENIERIE:
+      - Introduction: retro-ingenierie/index.md
+
+  - CRYPTOGRAPHIE:
+      - Introduction: cryptographie/index.md
