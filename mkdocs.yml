@@ -11,13 +11,26 @@ theme:
   language: fr
   features:
     - navigation.sections
+    - search.suggest
+    - search.highlight
   icon:
     logo: fontawesome/solid/terminal
   palette:
-    - scheme: slate
-      primary: yellow
-      accent: yellow
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Basculer en mode sombre
 
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Basculer en mode clair
 
 extra_css:
   - stylesheets/extra.css
